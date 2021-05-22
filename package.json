@@ -1,0 +1,35 @@
+{
+  "name": "@release-it/custom-changelog",
+  "version": "1.0.0",
+  "description": "Changelog plugin for release-it",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": ["custom changelog ","custom changelog release-it" ,"release-it"],
+  "scripts": {
+    "commit": "git cz",
+    "release": "release-it",
+    "prepare": "husky install"
+  },
+  "peerDependencies": {
+    "release-it": "^14.6.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "commitizen": "^4.2.3",
+    "commitlint-config-gitmoji": "^2.2.5",
+    "conventional-changelog": "^3.1.24",
+    "conventional-recommended-bump": "^6.1.0",
+    "cz-customizable": "^6.3.0",
+    "fs-extra": "^9.1.0",
+    "husky": "^6.0.0",
+    "release-it": "^14.6.1"
+  },
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "pad": "^3.2.0",
+    "semver": "^7.3.5"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
