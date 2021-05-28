@@ -1,6 +1,6 @@
 {
   "name": "@release-it/custom-changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Changelog plugin for release-it",
   "main": "index.js",
   "license": "Apache-2.0",
