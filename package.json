@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Changelog plugin for release-it",
   "main": "index.js",
-  "license": "MIT",
-  "keywords": ["custom changelog ","custom changelog release-it" ,"release-it"],
+  "license": "Apache-2.0",
+  "keywords": [
+    "custom changelog ",
+    "custom changelog release-it",
+    "release-it"
+  ],
   "scripts": {
     "commit": "git cz",
     "release": "release-it",
