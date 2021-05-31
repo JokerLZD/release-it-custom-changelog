@@ -20,13 +20,13 @@ This plugin will provide the recommended bump to release-it, and update the chan
 ### npm
 
 ```bash
-npm install --save-dev @release-it/custom-changelog
+npm install --save-dev release-it-custom-changelog
 ```
 
 ### yarn
 
 ```bash
-yarn add -D @release-it/custom-changelog
+yarn add -D release-it-custom-changelog
 ```
 
 ## Usage
