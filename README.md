@@ -35,7 +35,7 @@ In the [release-it](https://github.com/release-it/release-it) config, for exampl
 
 ```json
 "plugins": {
-  "@release-it/custom-changelog": {
+  "release-it-custom-changelog": {
     "infile": "CHANGELOG.md",
     "fileHeader": {
       "title": "# Changelog\n\n",
