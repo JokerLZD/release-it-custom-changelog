@@ -1,7 +1,15 @@
 # Changelog
 
 A string to be used as the main header section of the CHANGELOG.
-## [v1.0.2](https://github.com/JokerLZD/release-it-custom-changelog/compare/v1.0.1...v1.0.2)
+## [v1.0.3](https://github.com/JokerLZD/release-it-custom-changelog/compare/v1.0.2...v1.0.3)
+
+`2021-05-31`
+
+
+**📝 文档更改**
+
+-change readme  ([96b62c6](https://github.com/JokerLZD/release-it-custom-changelog/commit/96b62c661eaa95d5dc1e32e37f831173a07d86f7))    by: **JokerLZD**
+  [96b62c6](https://github.com/JokerLZD/release-it-custom-changelog/commit/96b62c661eaa95d5dc1e32e37f831173a07d86f7)## [v1.0.2](https://github.com/JokerLZD/release-it-custom-changelog/compare/v1.0.1...v1.0.2)
 
 `2021-05-31`
 
