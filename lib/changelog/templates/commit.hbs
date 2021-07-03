@@ -2,9 +2,10 @@
 {{~/if}} {{~#if subject}}
   {{~subject}}
 {{~else}}
-  {{~header}}
+  {{~ header}}
 {{~/if}}
-{{~#if @root.linkReferences}}
+
+{{#if @root.linkReferences}}
   ([{{shortHash}}](
   {{~#if @root.repository}}
     {{~#if @root.host}}
@@ -18,11 +19,11 @@
     {{~@root.repoUrl}}
   {{~/if}}/
   {{~@root.commit}}/{{hash}}))
-  {{~#if @root.author}}
+  {{#if @root.author}}
     by: **{{authorName}}**
     {{~#if @root.email}} ({{authorEmail}}) {{~/if}}
-  {{~/if}}
-{{~/if}}
+  {{/if}}
+{{/if}}
 
 {{#if references}}
   📌 close:
@@ -33,6 +34,4 @@
     {{~else}}
       {{~@root.repoUrl}}/{{~@root.issue}}/{{this.issue}})
     {{~/if}}{{/each}}
-{{~else}}
-  [{{shortHash}}]({{~@root.repoUrl}}/{{~@root.commit}}/{{hash}})
 {{~/if}}

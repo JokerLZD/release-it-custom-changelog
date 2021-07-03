@@ -138,7 +138,7 @@ class ConventionalChangelog extends Plugin {
 
     await writeFileSync(
       infile,
-      fileHeaderStr + (changelog + oldContent),
+      fileHeaderStr + (changelog + '\n' + oldContent),
       'utf8'
     )
 
